@@ -1,0 +1,20 @@
+{
+  "name": "persons-app",
+  "version": "1.0.0",
+  "description": "Api pare guardar fechas y leer informacion de personas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "npx nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Manuel Franco",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "moment-timezone": "^0.5.43"
+  }
+}
